@@ -8,11 +8,19 @@ This project is an AR application that works with markers. The purpose is that u
 3. Button to show some reference video.
 
 ## Content
-- [Design](#Design)
+- [Design](#design)
     - [Home](#instalación)
     - [Target detected](#target-detected)
     - [Information box](#information-box)
     - [Playing the video](#playing-the-video)
+- [Development](#development)
+    - [Creating the home panel](#creating-the-home-panel)
+    - [Image editing](#image-editing)
+    - [Adding the target and the painting](#adding-the-target-and-the-painting)
+    - [Animation in Unity](#animation-in-unity)
+    - [Information button programming](#information-button-programming)
+    - [Video button programming](#video-button-programming)
+    - [Screenshot button programming](#screenshot-button-programming)
 
 ## Design
 Before I started building the program, I had to think about the layout and graphic elements that I would use to present the information to the user.
@@ -39,3 +47,98 @@ When the user presses the information button, this box is shown that includes: t
 When the user presses the video button, a box with the video related to the painting will be displayed.
 
 ![augmented art](img/img4.PNG)
+
+## Development
+In this section I describe my process of creating the project.
+
+### Creating the home panel
+For the home interface I created a canvas in the project, to this I added the elements that I designed previously: the background, the button, the logo and the texts, for the text I had to download and import the SourceSansPro source in the project.
+
+![augmented art](img/img5.PNG)
+
+An animation was included to give a more interactive effect to the home panel, the animation makes the home button fade and reappear subtly.
+
+![augmented art](img/img6.PNG)
+
+The button closes the home panel when pressed and in turn starts the ARCamera:
+
+![augmented art](img/img7.PNG)
+
+### Image editing
+For each animation I had to edit some images of each painting, I did this with the Krita editing tool:
+
+![augmented art](img/img8.PNG)
+
+Edited images for The Starry Night painting:
+
+![augmented art](img/img9.PNG)
+
+Once the necessary images were finished, I imported them into Unity and converted them into sprites so that I could use them in the tool:
+
+![augmented art](img/img10.PNG)
+
+### Adding the target and the painting
+A "PlaneTitle" was added to add the title of the painting, new targets were added to the vuforia database and imported.
+
+![augmented art](img/img11.PNG)
+
+The paint was added on top of the target:
+
+![augmented art](img/img12.PNG)
+
+### Animation in Unity
+Once I imported the images and transformed them into sprites, with the Unity animation tool I put them together by adding the correct time intervals.
+With the property "Sprite" I was able to make each image change to another at the moment that I selected:
+
+![augmented art](img/img13.PNG)
+
+### Information button programming
+To add the project buttons, I had to create a new canvas, this time inside the ARCamera hierarchy just below the target and the painting (ImageHolder) so that they can appear together with the frame when the user points with their camera:
+
+![augmented art](img/img14.PNG)
+![augmented art](img/img15.PNG)
+
+The icon and button were added, some transparency was also added to give it a better effect.
+The following functionality was added to the information button:
+
+![augmented art](img/img16.PNG)
+
+The code basically makes that when the information button is pressed, it activates the panel with the painting information:
+
+![augmented art](img/img17.PNG)
+
+The panel includes elements such as: titles, description, painting image and a button to close the panel.
+
+![augmented art](img/img18.PNG)
+
+The functionality of the button to close the panel is similar to that of the button to open it:
+
+![augmented art](img/img19.PNG)
+
+### Video button programming
+The button to display the video works the same as the button to display the information:
+
+![augmented art](img/img20.PNG)
+
+Video panel:
+
+![augmented art](img/img21.PNG)
+
+For the video, I added the video player component as well as a new texture so that I can render it:
+
+![augmented art](img/img22.PNG)
+
+The videos had to be imported prior to the project. To close the panel, this functionality was added to the button:
+
+![augmented art](img/img23.PNG)
+
+### Screenshot button programming
+For the screenshot button, I imported an external Asset called Native Toolkit:
+
+![augmented art](img/img24.PNG)
+
+The following functionality was added to the screenshot button:
+
+![augmented art](img/img25.PNG)
+
+When the user presses the button, the application takes a screenshot and stores it on the device, in the path Android > data > com.IvnAguilar.AugmentedArt.
