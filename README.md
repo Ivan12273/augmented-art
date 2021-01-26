@@ -21,6 +21,11 @@ This project is an AR application that works with markers. The purpose is that u
     - [Information button programming](#information-button-programming)
     - [Video button programming](#video-button-programming)
     - [Screenshot button programming](#screenshot-button-programming)
+- [Testing the application](#testing-the-application)
+- [Available targets](#available-targets)
+- [Future updates](#future-updates)
+- [Download the demo](#download-the-demo)
+- [Videos used in the project](#videos-used-in-the-project)
 
 ## Design
 Before I started building the program, I had to think about the layout and graphic elements that I would use to present the information to the user.
@@ -142,3 +147,59 @@ The following functionality was added to the screenshot button:
 ![augmented art](img/img25.PNG)
 
 When the user presses the button, the application takes a screenshot and stores it on the device, in the path Android > data > com.IvnAguilar.AugmentedArt.
+
+## Testing the application
+Home
+
+![augmented art](img/img26.jpg)
+
+Turning the camera on
+
+![augmented art](img/img27.jpg)
+
+Detecting the target
+
+![augmented art](img/img28.jpg)
+![augmented art](img/img29.jpg)
+
+Pressing the information button
+
+![augmented art](img/img30.jpg)
+
+Pressing the video button
+
+![augmented art](img/img31.jpg)
+
+Screenshot saved
+
+![augmented art](img/img32.jpg)
+
+## Available targets
+
+![augmented art](img/img33.png)
+![augmented art](img/img34.png)
+![augmented art](img/img35.png)
+![augmented art](img/img36.png)
+![augmented art](img/img37.png)
+
+## Future updates
+• New elements in the information panel that may be useful for the user or more interesting data. 
+• Updates for the video panel so the user can pause, control volume, or rewind and forward.
+• New buttons to increase interaction with the user, an idea that was contemplated at the beginning was a button that displayed a new view with the gallery of all the paintings available in the application.
+• New animations for each painting, also new effects or improve the existing ones.
+• More paints could be added to the application to increase the information available.
+
+## Download the demo
+You can download the demo cliking [here](https://drive.google.com/file/d/1-CGjKvBhqWzglTTI2ZHqnVuAv0tLanPF/view?usp=sharing)
+
+## Videos used in the project
+All the videos used in this project are not mine. These are the original authors:
+[Mona Lisa Video](https://www.youtube.com/watch?v=IitbJszd1kM)
+
+[Starry Night Video](https://www.youtube.com/watch?v=x-FiTQvt9LI)
+
+[American Gothic Video](https://www.youtube.com/watch?v=vk2GvyNmYD0)
+
+[Café Terrace at Night Video](https://www.youtube.com/watch?v=cliOvhDDtcY)
+
+[The Scream Video](https://www.youtube.com/watch?v=a6WtQt-QQnc)
