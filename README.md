@@ -13,3 +13,6 @@ This project is an AR application that works with markers. The purpose is that u
 ## Design
 Before I started building the program, I had to think about the layout and graphic elements that I would use to present the information to the user.
 For the elaboration of the UI designs of the application, I used the [figma](https://www.figma.com/) tool, as a result, the following GUIs were elaborated for the project:
+
+### Home
+The first thing the user will see when starting the application, I made both the logo and the background with the Krita editing tool.
