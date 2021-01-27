@@ -188,7 +188,7 @@ Screenshot saved
 • More paints could be added to the application to increase the information available.
 
 ## Download the demo
-You can download the demo cliking [here](https://drive.google.com/file/d/1-CGjKvBhqWzglTTI2ZHqnVuAv0tLanPF/view?usp=sharing)
+You can download the demo clicking [here](https://drive.google.com/file/d/1-CGjKvBhqWzglTTI2ZHqnVuAv0tLanPF/view?usp=sharing)
 
 ## Videos used in the project
 All the videos used in this project are not mine. These are the original authors:
