@@ -182,9 +182,13 @@ Screenshot saved
 
 ## Future updates
 • New elements in the information panel that may be useful for the user or more interesting data. 
+
 • Updates for the video panel so the user can pause, control volume, or rewind and forward.
+
 • New buttons to increase interaction with the user, an idea that was contemplated at the beginning was a button that displayed a new view with the gallery of all the paintings available in the application.
+
 • New animations for each painting, also new effects or improve the existing ones.
+
 • More paints could be added to the application to increase the information available.
 
 ## Download the demo
