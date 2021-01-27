@@ -59,7 +59,7 @@ In this section I describe my process of creating the project.
 ### Creating the home panel
 For the home interface I created a canvas in the project, to this I added the elements that I designed previously: the background, the button, the logo and the texts, for the text I had to download and import the SourceSansPro source in the project.
 
-![augmented art](img/img5.png)
+![augmented art](img/Img5.png)
 
 An animation was included to give a more interactive effect to the home panel, the animation makes the home button fade and reappear subtly.
 
@@ -176,10 +176,8 @@ Screenshot saved
 
 ## Available targets
 
-![augmented art](img/img33.png)
-![augmented art](img/img34.png)
-![augmented art](img/img35.png)
-![augmented art](img/img36.png)
+![augmented art](img/img33.png) ![augmented art](img/img34.png)
+![augmented art](img/img35.png) ![augmented art](img/img36.png)
 ![augmented art](img/img37.png)
 
 ## Future updates
@@ -194,6 +192,7 @@ You can download the demo cliking [here](https://drive.google.com/file/d/1-CGjKv
 
 ## Videos used in the project
 All the videos used in this project are not mine. These are the original authors:
+
 [Mona Lisa Video](https://www.youtube.com/watch?v=IitbJszd1kM)
 
 [Starry Night Video](https://www.youtube.com/watch?v=x-FiTQvt9LI)
