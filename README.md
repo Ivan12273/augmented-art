@@ -9,7 +9,7 @@ This project is an AR application that works with markers. The purpose is that u
 
 ## Content
 - [Design](#design)
-    - [Home](#instalación)
+    - [Home](#home)
     - [Target detected](#target-detected)
     - [Information box](#information-box)
     - [Playing the video](#playing-the-video)
